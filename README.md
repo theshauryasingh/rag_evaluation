@@ -4,9 +4,9 @@ Retrieval-Augmented Generation (RAG) is a method that combines information retri
 
 How RAG Works
 
-1Retrieval Phase: Given a query, a retriever model (e.g., a dense retriever like DPR or a bi-encoder such as all-MiniLM-L6-v2) searches a document corpus for relevant passages. These retrieved passages act as reference material for the next stage, providing factual grounding for the response.
+1. Retrieval Phase: Given a query, a retriever model (e.g., a dense retriever like DPR or a bi-encoder such as all-MiniLM-L6-v2) searches a document corpus for relevant passages. These retrieved passages act as reference material for the next stage, providing factual grounding for the response.
 
-2Generation Phase: The query and retrieved passages are then fed to a generative model (e.g., T5 or GPT) to synthesize a coherent and relevant response. By integrating retrieved information, the generative model is less likely to “hallucinate” and more likely to provide accurate information based on the retrieved documents.
+2. Generation Phase: The query and retrieved passages are then fed to a generative model (e.g., T5 or GPT) to synthesize a coherent and relevant response. By integrating retrieved information, the generative model is less likely to “hallucinate” and more likely to provide accurate information based on the retrieved documents.
 
 This two-phase setup allows RAG models to dynamically access external knowledge, producing responses that are both informed and responsive to the query context.
 

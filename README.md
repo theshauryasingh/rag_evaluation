@@ -62,4 +62,4 @@ Chosen Evaluation Type: Cosine Similarity
 
 \-----------------------------------------
 
-For this task, we use \*\*cosine similarity\*\* to measure relevance. This metric is well-suited for RAG systems as it captures the semantic closeness of the generated response to the input query without relying on exact text matching. Cosine similarity offers a quantitative assessment of content relevance, essential for verifying if generated responses align with the user's query intent.
+For this task, I use \*\*cosine similarity\*\* to measure relevance. This metric is well-suited for RAG systems as it captures the semantic closeness of the generated response to the input query without relying on exact text matching. Cosine similarity offers a quantitative assessment of content relevance, essential for verifying if generated responses align with the user's query intent.
